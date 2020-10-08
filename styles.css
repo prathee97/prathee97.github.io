@@ -1,0 +1,191 @@
+.general {
+    text-align: center;
+    padding: 30px;
+}
+
+.log {
+    padding: 40px;
+}
+
+.head {
+    text-align: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.head> a{
+    color: blue;
+    text-decoration-line: none;
+}
+
+.head> a:hover{
+    text-decoration-line: underline;
+}
+
+.head> #baa{
+    position: absolute;
+    left: 875px;
+
+}
+
+.head> #foo {
+    position: absolute;
+    right: 3px;
+    margin-right: 5px;
+}
+
+.searchbox > input {
+    width: 500px;
+    height: 35px;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+
+.submit > input {
+   height: 40px;
+   width: auto;
+   color: #646464;
+   background: #f2f2f2;
+   border: none;
+   cursor: pointer;
+   margin: 4px;
+   outline: none;
+   
+   
+}
+
+.submit> input:hover{
+    color: #373737;
+    background: #d3d3d3;
+    border: .5px solid lightgrey;
+}
+
+.button> input {
+    position: absolute;
+    height: 40px;
+    width: auto;
+    color: #646464;
+    background: #f2f2f2;
+    border: none;
+    cursor: pointer;
+    margin: 4px; 
+    font-size: 20px; 
+    top: 350px;
+    left: 495px;
+    outline: none;
+}
+
+.button>input:hover{
+    color: #373737;
+    background: #d3d3d3;
+    border: .5px solid lightgrey;
+
+}
+
+
+
+
+
+
+/* image html */
+
+.img {
+    position: absolute;
+    top: 5px;
+    left: 60px;
+}
+
+.heading > a {
+    color: blue;
+    font-size: 20px;
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    text-decoration-line: none;
+}
+
+.heading> a:hover{
+    text-decoration-line: underline;
+}
+
+
+
+.search > input{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 25px;
+    outline: none;
+    font-size: 16px;
+    top: 280px;
+    left: 280px;
+}
+
+
+/* advanced */
+
+.logo > img{
+    position: absolute;
+    width: 95px;
+    height: 35px;
+    left: 12px;
+    top: 15px;
+}
+
+.main {
+    position: absolute;
+    text-align: left;
+    padding-left: 20px;
+    top: 65px;
+    font-size: 15px;
+}
+
+.top {
+    font-size: 25px;
+    color: rgb(197, 13, 13);
+}
+
+.back> a {
+    position: absolute;
+   font-size: 20px;
+   color: blue;
+   text-align: right;
+   right: 40px;
+   top: 40px;
+   text-decoration-line: none;    
+}
+
+.back > a:hover{
+    text-decoration-line: underline;
+}
+
+.contents > form> input {
+    height: 25px;
+    width: 500px;
+    outline-color: rgb(74, 74, 236);
+}
+
+.btn >input{
+    color: white;
+    background-color: rgb(83, 38, 247);
+    font-size: 20px;
+    height: 40px;
+    width: auto;
+    border: none;
+    cursor: pointer;
+    margin: 4px;
+    outline: none;
+}
+
+.btn > input:hover{
+    background-color: blue;
+}
